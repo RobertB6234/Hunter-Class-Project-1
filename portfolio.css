@@ -1,0 +1,93 @@
+/* Class project - Robert Brennan's Portfolio 6/12/2017 
+	Portfolio css
+*/
+/* font-family: 'Questrial', sans-serif; */
+
+html, body {
+	margin-top:20px;
+	padding:0;	
+}
+
+h1 {
+	text-align: inline-block;
+	padding: 20px;
+	color: #f2f2f2;
+	letter-spacing: 3px;
+	text-shadow: 1.5px 1px 1.5px #2d2d2d;	
+}
+
+h3 {	
+	font-family: 'Questrial', sans-serif;
+	color: #f2f2f2;
+	text-align:center;
+}
+
+#rb {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 50px;
+}
+
+body {
+	background: url(images/port_bkg.png);
+	background-size: 100%;
+}
+
+.header ul, .footer ul {
+	padding:0 20px;
+	margin:0;
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-pills li a:hover {
+	background:none;
+	color:white;
+}
+
+
+.back {
+	font-family: 'Questrial', sans-serif;
+	font-size:1.2em;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.back a:hover {
+	transform: scale(1.01);
+	letter-spacing: 1px;
+	-webkit-transition-timing-function:ease-out; /* Safari and Chrome */
+	transition:.5s ease-out;
+	text-decoration: none; 
+	color:white;
+}
+
+.footer li {
+	display: inline;
+	margin: right;
+}
+
+.footer p {
+	color:white;
+}
+
+.col-md-4  img{
+	width: 100%;
+	border: none;
+	padding: 0;
+}
+
+/*media query for tablet*/
+@media only screen and (min-width: 481px) {
+
+
+/*Media query for desktop*/
+@media only screen and (min-width: 961px) { 
+
+h1 {
+	text-align: inline-block;
+	padding: 20px;
+	color: #f2f2f2;
+	letter-spacing: 3px;
+	text-shadow: 1.5px 1px 1.5px #2d2d2d;	
+}

@@ -1,0 +1,121 @@
+/* Class project - Robert Brennan's Portfolio 6/12/2017 
+	Blog css
+*/
+/* font-family: 'Questrial', sans-serif; */
+
+body {
+	border: 10px;
+	border-color: #0f0f0f;
+	border-style: double;
+}
+
+html, body {
+	margin:0;
+	padding:0;	
+}
+
+h1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-style: bold;
+	font-size: 3em;
+}
+body {
+	background-image: url("images/blog_bkg6.png");
+	background-attachment: fixed;
+}
+
+nav {
+	font-family: 'Cormorant Garamond', serif;
+	color: black;
+	font-size: 1.5em;
+	list-style-type: none;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+}
+
+nav li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul {
+	padding: 0;
+	text-align:center;
+}
+
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: bold;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 1em;
+}
+
+p {
+	margin: 25px;
+	font-size: 1.2em;
+}
+
+
+/*media query for tablet*/
+@media only screen and (min-width: 481px) {
+
+
+nav li a:hover {
+	transform: scale(1.01);
+	color:#5bcfe8;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: upperCase;
+	-webkit-transition-timing-function:ease-out; /* Safari and Chrome */
+	transition:.7s ease-out;
+
+}
+}
+
+/*Media query for desktop*/
+@media only screen and (min-width: 961px) { 
+
+
+h1 {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+	font-style: bold;
+	font-size: 3em;
+}
+body {
+	background-color: #fff5c1;
+}
+
+nav {
+	font-family: 'Cormorant Garamond', serif;
+	color: black;
+	text-align: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	width: 25%;
+}
+
+nav ul {
+	padding: 0;
+	text-align:center;
+}
+
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: bold;
+	text-align: center;
+	margin-top: 3em;
+}
+
+p {
+	margin: 60px;
+}

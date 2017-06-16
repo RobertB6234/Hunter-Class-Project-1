@@ -1,0 +1,182 @@
+/* Class project - Robert Brennan's Portfolio 6/12/2017 
+   Home Page css
+/* font-family: 'Questrial', sans-serif; */
+
+
+body {
+	background-image: url("images/jvbw2.png");
+	position: relative;
+	z-index: 1;
+}
+
+h1 {
+	margin-top: 170px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	font-variant: small-caps;
+	color:#cccccc;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 10px;
+/*	text-shadow: 2.5px 3px 1px #f4f8f9; */
+	text-shadow: 0px 5px 8px #af38ff/*#fcfcfc*/;
+}
+
+nav {
+	font-family: 'Questrial', sans-serif;
+	color: #fcfcfc;
+	font-size: 1.3em;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 3.5em;
+}
+
+nav ul li a:hover {
+	transform: scale(1.05);
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: upperCase;
+	-webkit-transition-timing-function:ease-out; /* Safari and Chrome */
+	transition:.8s ease-out;
+}
+
+nav li {
+	text-shadow: 0px 4px 5px #b547ff;
+	list-style-type: none;
+	display: block;
+	padding: 5px;
+	color:#fcfcfc;
+}
+
+nav li a {
+	color:#fcfcfc;
+	text-decoration: none;
+}
+
+nav ul{
+	padding: 0;
+	text-align:center;
+}
+
+
+
+/*media query for tablet*/
+@media only screen and (min-width: 481px) {
+
+
+	
+h1 {
+	margin-top: 170px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	font-variant: small-caps;
+	color:#cccccc;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 15px;
+/*	text-shadow: 2.5px 3px 1px #f4f8f9; */
+	text-shadow: 0px 5px 8px #af38ff/*#fcfcfc*/;
+}
+
+nav {
+	font-family: 'Questrial', sans-serif;
+	color: #fcfcfc;
+	font-size: 1.1em;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 3.5em;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+nav ul li a:hover {
+	transform: scale(1.05);
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: upperCase;
+	-webkit-transition-timing-function:ease-out; /* Safari and Chrome */
+	transition:.8s ease-out;
+}
+
+nav li {
+	text-shadow: 0px 4px 5px #b547ff;
+	list-style-type: none;
+	display: inline-block;
+	width: 20%;
+	color:#fcfcfc;
+}
+
+nav li a {
+	color:#fcfcfc;
+	text-decoration: none;
+}
+
+nav ul{
+	padding: 0;
+	text-align:center;
+}
+
+
+
+
+/*Media query for desktop*/
+@media only screen and (min-width: 961px) { 
+
+
+
+
+body {
+	background-image: url("images/jvbw2.png");
+	position: relative;
+	z-index: 1;
+}
+
+h1 {
+	margin-top: 120px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 6em;
+	font-variant: small-caps;
+	color:#cccccc;
+	text-align: center;
+	padding: 20px;
+	letter-spacing: 15px;
+/*	text-shadow: 2.5px 3px 1px #f4f8f9; */
+	text-shadow: 0px 5px 8px #af38ff/*#fcfcfc*/;
+}
+
+nav {
+	font-family: 'Questrial', sans-serif;
+	color: #fcfcfc;
+	font-size: 1.5em;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 3.5em;
+}
+
+nav ul li a:hover {
+	transform: scale(1.06);
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: upperCase;
+	-webkit-transition-timing-function:ease-out; /* Safari and Chrome */
+	transition:.7s ease-out;
+}
+
+nav li {
+	text-shadow: 0px 4px 5px #b547ff;
+	list-style-type: none;
+	display: inline-block;
+	width: 20%;
+	color:#fcfcfc;
+}
+
+nav li a {
+	color:#fcfcfc;
+	text-decoration: none;
+}
+
+nav ul{
+	padding: 0;
+	text-align:center;
+}
+}
